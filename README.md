@@ -11,4 +11,4 @@
 还有就是……别把我的收款二维码偷走哦🤪
 
 # 捐赠(Donate)
-![Donate](Triple-Donate.jpg)
+![Donate](WeChatReward-Donate.jpg)
