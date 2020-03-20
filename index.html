@@ -10,15 +10,22 @@
     <link href="favicon.ico" rel="ITMan_CHINA">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <meta name="google-site-verification" content="bjZh_f4LQJVhmLrnK_9uYFXNXx6Qf84e2VNCkgCf3lw" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-       <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJ0F8PTQ0T"></script>
-         <script>
-             window.dataLayer = window.dataLayer || [];
-             function gtag(){dataLayer.push(arguments);}
-             gtag('js', new Date());
-
-             gtag('config', 'G-ZJ0F8PTQ0T');
-        </script>
+    <script>var OriginTitile=document.title;
+    var st;
+    document.addEventListener('visibilitychange',function(){
+    if(document.hidden){
+    document.title="(つェ⊂)浏览器崩溃了";
+    clearTimeout(st);
+    console.log('hide');
+    }else{
+    document.title='(*´∇｀*)吖~又好了~ '+OriginTitile;
+    console.log('show');
+    st=setTimeout(function(){
+    document.title=OriginTitile;
+    },4000);
+    console.log('endChange=');
+    }
+    });</script>
 </head>
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=410 height=86 src="//music.163.com/outchain/player?type=2&id=496869422&auto=1&height=66"></iframe>
