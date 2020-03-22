@@ -35,6 +35,7 @@ body
   position: relative;
   margin: 0 5px;
   -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+  box-reflect: below 1px linear-gradient(transparent,#0004);
 }
 #clock #time div span
 {
