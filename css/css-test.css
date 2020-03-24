@@ -26,7 +26,7 @@ h1::after{
   position: absolute;
   left: 0;
   top: 0;
-  -webkit-clip-path: ellipse(100px 100px at 00% 50%);
+  -webkit-clip-path: ellipse(100px 100px at 0% 50%);
   clip-path: ellipse(100px 100px at 0% 50%);
   animation: spotlight 6s infinite;
   background-image: url(https://i.loli.net/2020/03/22/OhAmBwFYpfe25sL.jpg);
@@ -34,7 +34,6 @@ h1::after{
   background-position: center center;
   -webkit-background-clip: text;
   background-clip: text;
-  
 }
 
 @keyframes spotlight {
