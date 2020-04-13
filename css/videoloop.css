@@ -36,6 +36,11 @@ h1::after{
   background-clip: text;
 }
 
+video
+  {
+  visibility:visible;
+  }
+
 @keyframes spotlight {
   0% {
     -webkit-clip-path: ellipse(100px 100px at 00% 50%);
