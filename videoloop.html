@@ -1,16 +1,17 @@
 <!doctype html>
 <html lang="en">
  <head>
-  <meta charset="UTF-8">
-  <title>HTML5视频自动循环播放</title>
+   <meta charset="UTF-8">
+   <title>HTML5视频自动循环播放</title>
+   <link href="1.css" rel="stylesheet" type="text/css" media="all" />
+   <body bgcolor="#000000">
  </head>
  <body>
-	<video id="videoID" controls="controls" style="width:500px">
+  	<video id="videoID" controls="controls" style="width:200px">
 	  <source src="https://store.storevideos.cdn-apple.com/v1/store.apple.com/media/video/app-covers-apple-outline/app-covers-apple-outline.mp4" type="video/mp4"/>
-	</video>
-	<br/>
-	<button id="con" onclick="btn()">开始/暂停 </button>
- </body>
+	  </video>
+   <h1 data-spotlight="ITMan_CHINA">ITMan_CHINA</h1>
+</body>
 <script  type="text/javascript">
 	window.onload = function() {
 		var local1=document.getElementById('videoID');  //获取，函数执行完成后local内存释放
@@ -23,15 +24,4 @@
 			local1.pause();  //停止播放
 	    }
     }
-
-    function btn(){
-		var local=document.getElementById('videoID');  //获取，函数执行完成后local内存释放
-		if(local.paused){  //判断是否处于暂停状态
-			local.play();  //开启播放
-	    }else{
-			local.pause();  //停止播放
-	    }
-	} 
-
 </script>
-</html>
