@@ -98,3 +98,9 @@ body {
 #chart.animate .loading {
   opacity: 0;
 }
+
+#footer {
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
