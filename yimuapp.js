@@ -6,7 +6,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/yimuapp.com\/bookkeeping\/user\/getUser\/.+.+$ url script-response-body https://raw.githubusercontent.com/ITManCHINA/itmanchina.github.io/master/yimuapp.conf
+^http[s]?:\/\/yimuapp.com\/bookkeeping\/user\/getUser\/.+.+$ url script-response-body https://raw.githubusercontent.com/ITManCHINA/itmanchina.github.io/master/yimuapp.js
 [mitm] 
 hostname = *.yimuapp.*
 
@@ -14,7 +14,7 @@ hostname = *.yimuapp.*
 Surge
 
 [Script]
-^http[s]?:\/\/yimuapp.com\/bookkeeping\/user\/getUser\/.+.+$ requires-body=1,max-size=0,script-path=yimuapp.js
+^http[s]?:\/\/yimuapp.com\/bookkeeping\/user\/getUser\/.+.+$ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ITManCHINA/itmanchina.github.io/master/yimuapp.js
 
 [MITM]
 hostname = *.yimuapp.*
